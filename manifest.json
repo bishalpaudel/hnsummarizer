@@ -1,0 +1,23 @@
+{
+  "name": "Hacker News Summarizer",
+  "version": "1.0.2",
+  "description": "This extension summarizes articles on Hacker News.",
+  "manifest_version": 3,
+  "author": "Sushil KG, Bishal P",
+  "action": {
+    "default_popup": "index.html",
+    "default_title": "Hacker News Summarizer"
+  },
+  "content_scripts": [
+    {
+        "matches": ["https://news.ycombinator.com/*"],
+        "js": ["content_script.js"]
+    }
+  ],
+  "icons": {
+    "16": "icons/icon16.png",
+    "32": "icons/icon32.png",
+    "48": "icons/icon48.png",
+    "128": "icons/icon128.png"
+  }
+}
