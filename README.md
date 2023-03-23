@@ -5,4 +5,4 @@ Disclaimer: This extension uses OpenAI API to generate summaries of the article.
 
 [Find the Google Chrome extension here](https://chrome.google.com/webstore/detail/hacker-news-summarizer/ajodkpllepafdcjcgklhnamlnninjbmd)
 
-License: [license](LICENSE)
+[License: MIT](LICENSE)
